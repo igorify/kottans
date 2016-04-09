@@ -1,0 +1,44 @@
+<div class="pokemon-preview_wrapper">
+    <img class="pokemon-preview__image" src="http://pokeapi.co/media/img/{{pokemon.national_id}}.png">
+    <div class="pokemon-preview__title">{{pokemon.name}} #{{pokemon.national_id}}</div>
+    <table>
+        <tbody>
+        <tr>
+            <td>Type</td>
+            <td>{{pokemon.types.0.name}}</td>
+        </tr>
+        <tr>
+            <td>Attack</td>
+            <td>{{pokemon.attack}}</td>
+        </tr>
+        <tr>
+            <td>Defense</td>
+            <td>{{pokemon.defense}}</td>
+        </tr>
+        <tr>
+            <td>HP</td>
+            <td>{{pokemon.hp}}</td>
+        </tr>
+        <tr>
+            <td>SP Attack</td>
+            <td>{{pokemon.sp_atk}}</td>
+        </tr>
+        <tr>
+            <td>SP Defense</td>
+            <td>{{pokemon.sp_def}}</td>
+        </tr>
+        <tr>
+            <td>Speed</td>
+            <td>{{pokemon.speed}}</td>
+        </tr>
+        <tr>
+            <td>Weight</td>
+            <td>{{pokemon.weight}}</td>
+        </tr>
+        <tr>
+            <td>Total moves</td>
+            <td>{{pokemon.moves.length}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

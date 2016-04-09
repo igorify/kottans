@@ -1,0 +1,19 @@
+{{#each pokemons}}
+    <div class="pokemon-item" data-id="{{national_id}}">
+        <img class="pokemon-item__image" src="http://pokeapi.co/media/img/{{national_id}}.png"></img>
+        <div class="pokemon-item__title">{{name}}</div>
+        <div class="pokemon-item__types">
+            {{#each types}}
+                <div class="pokemon-item__types-elem {{typeColorHelper}}" data-type="{{resource_uri}}">
+                    {{name}}
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/each}}
+
+
+
+
+
+

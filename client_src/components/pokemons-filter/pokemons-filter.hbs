@@ -1,0 +1,9 @@
+    <select class="pokemons-filter__select">
+            <option value="select_type" selected>Select Type</option>
+        {{#each types}}
+            <option data-type="{{resource_uri}}" value="{{name}}">{{name}}</option>
+        {{/each}}
+    </select>
+
+    <button class="pokemons-filter__btn_find">find</button>
+    <button class="pokemons-filter__btn_clear">clear</button>

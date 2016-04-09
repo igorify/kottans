@@ -1,0 +1,94 @@
+.pokemons-container {
+  width: 70%;
+  @media screen and (max-width: 637px) {
+    width: 100%;
+  }
+}
+.pokemon-preview {
+  width: 300px;
+  height: 500px;
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  margin-top: -250px;
+
+    @media screen and (min-width: 1521px) {
+      position: absolute;
+    }
+    @media screen and (max-width: 1520px) {
+      position: fixed;
+      right: 100px;
+    }
+    @media screen and (max-width: 1176px) {
+       right: 60px;
+    }
+
+    @media screen and (max-width: 858px) {
+      right: 70px;
+    }
+    @media screen and (max-width: 637px) {
+      right: 125px;
+    }
+
+    @media screen and (max-width: 535px) {
+      right: 50px;
+    }
+
+    @media screen and (max-width: 320px) {
+      right: 14px;
+    }
+}
+
+.pokemon-preview.pokemon-preview_bg{
+    background-color: rgba(0, 0, 0, .4);
+  }
+
+.pokemons-more__btn {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #0b97c4;
+  border: 1px solid rgba(0, 0, 0, .6);
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  @media screen and (max-width : 1084px) {
+    width: 454px;
+  }
+  @media screen and (max-width : 858px) {
+    width: 221px;
+    margin-left: 4px;
+  }
+  @media screen and (max-width: 637px) {
+    width: 221px;
+    margin: 10px auto;
+    display: block;
+  }
+}
+.pokemons-more__btn:hover {
+  opacity: 0.6;
+}
+.pokemon-spinner {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+}
+.pokemon-spinner.show {
+  display: block;
+}
+.pokemon-spinner__img {
+  widows: 75px;
+  height: 75px;
+}
+.pokemon-spinner__dark {
+  background-color: rgba(0,0,0,.3);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

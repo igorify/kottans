@@ -1,0 +1,28 @@
+#!/bin/bash 
+
+RUN=false
+BUILD=false
+
+for i in "$@"
+do 
+    case $i in
+        run)
+            RUN=true
+        ;;
+        build)
+            BUILD=true
+        ;;
+esac
+done
+
+if [ $BUILD = true ]
+then
+    npm install
+    gulp build
+fi
+
+if [ $RUN = true ]
+then
+    gulp& node app.js
+fi
+
