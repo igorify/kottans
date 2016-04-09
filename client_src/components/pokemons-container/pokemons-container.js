@@ -8,7 +8,7 @@ var PokemonsFilterModel = require( '../../models/pokemons-filter.js' );
 
 module.exports = function () {
     var elem = $('<div></div>');
-    var CHUNK_SET = 212; //You also can set your quantity per chunk pokemons
+    var CHUNK_SET = 12; //You also can set your quantity per chunk pokemons
     var FIRST_URI = '/api/v1/pokemon/?limit=' + CHUNK_SET;
     var uri = FIRST_URI;
 
