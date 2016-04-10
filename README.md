@@ -32,7 +32,7 @@
 3. Відкрити додаток в браузері за адресою [`http://localhost:2000/`](http://localhost:2000/)
 
 
-Додаток задеплоїний на сервер Heroku, ви можете його відкрити за адресою [https://pokedex4kottans.herokuapp.com/pokemons.html}(https://pokedex4kottans.herokuapp.com/pokemons.html) (!майте на увазі, перший запит на данну адресу займе більше часу, оскільки сервер вихожить з режиму сну)
+Додаток задеплоїний на сервер Heroku, ви можете його відкрити за адресою [ [`https://pokedex4kottans.herokuapp.com/pokemons.html`](https://pokedex4kottans.herokuapp.com/pokemons.html) (!майте на увазі, перший запит на данну адресу займе більше часу, оскільки сервер виходить з режиму сну)
 
 
 
